@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { NewsService, Article } from './services/NewsService';
+import { Article } from './services/NewsService';
 import { Card, Theme, withStyles, CardHeader, CardContent, Avatar, IconButton, CardMedia, Typography, CardActions, Collapse } from '@material-ui/core';
 import red from '@material-ui/core/colors/red';
 import LinkIcon from '@material-ui/icons/Link';
-import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 
 const styles = (theme: Theme) => ({

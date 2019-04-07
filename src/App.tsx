@@ -7,7 +7,6 @@ import ArticleCard from './ArticleCard';
 
 const styles = (theme: Theme) => ({
   title: {
-    // display: "flex"
     marginTop: 50,
     marginBottom: 50
   },
@@ -35,15 +34,6 @@ const styles = (theme: Theme) => ({
     marginBottom: 50
   }
 });
-
-enum Country {
- Canada = "ca",
- US = "us"
-}
-
-enum Category {
-  news = "news"
-}
 
 interface State {
   country: string,
